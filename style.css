@@ -335,6 +335,21 @@ footer {
     .step {
         width: 100%;
     }
+
+
+    nav.main-navigation ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        text-align: left;
+    }
+
+    nav.main-navigation ul li a {
+        font-size: 14px;
+        display: block;
+        padding: 5px 0;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -350,5 +365,17 @@ footer {
     .services-text li,
     .package {
         width: 100%;
+    }
+    nav.main-navigation ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        text-align: left;
+    }
+
+    nav.main-navigation ul li a {
+        font-size: 14px;
+        display: block;
+        padding: 5px 0;
     }
 }
