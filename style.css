@@ -1,0 +1,354 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+header {
+    background-color: #8c6239;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://www.decorpot.com/images/blogimage1361284108interior-designs-for-master-bedroom.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+}
+
+.hero h3 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+nav.main-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav.main-navigation ul li a {
+    text-decoration: none;
+    color: #8c6239;
+    padding: 10px;
+    display: block;
+}
+
+nav.main-navigation ul li a:hover {
+    background-color: #8c6239;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.work, .services, .pricing, .contact-info {
+    padding: 40px 0;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-img img {
+    max-width: 350px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.container-img img:hover {
+    transform: scale(1.05);
+}
+
+.services-text ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.services-text li {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.services-text i {
+    font-size: 24px;
+    color: #8c6239;
+}
+
+.pricing {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #8c6239;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+td {
+    font-size: 14px;
+    border-right: 1px solid #ddd;
+}
+
+td i {
+    font-size: 20px;
+    color: #8c6239;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.package {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.package h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.package .price {
+    font-size: 36px;
+    color: #8c6239;
+    margin: 10px 0;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+}
+
+.package ul li {
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+}
+
+.package ul li:first-child {
+    border-top: none;
+}
+
+.work-process {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.step {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.step i {
+    font-size: 36px;
+    color: #8c6239;
+    margin-bottom: 10px;
+}
+
+.step h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+    color: #666;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.contact-info {
+    padding: 40px 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-details {
+    flex: 1;
+    min-width: 200px;
+    padding-left: 20px;
+}
+
+.contact-map {
+    flex: 2;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.social-media-links {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-links a {
+    color: #8c6239;
+    font-size: 36px;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+    color: #555;
+}
+
+footer {
+    background-color: #8c6239;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-details, .contact-map, .social-media-links {
+        max-width: 100%;
+    }
+
+    .step {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-img {
+        flex-direction: column;
+    }
+
+    .services-text ul,
+    .pricing-container {
+        flex-direction: column;
+    }
+
+    .services-text li,
+    .package {
+        width: 100%;
+    }
+}
